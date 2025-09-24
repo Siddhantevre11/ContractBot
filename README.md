@@ -7,9 +7,13 @@
 
 ## Description
 
-Maverick: AI-Powered Assistant for Aviators
+Maverick (CBA CoPilot) : AI-Powered Assistant for Aviators
+
+
+
 Project Overview
 CBA CoPilot is an intelligent tool designed to empower pilots by providing instant access to critical information from their Collective Bargaining Agreements (CBAs). This project aims to streamline daily operations, reduce administrative overhead, and enable pilots to make informed decisions quickly, leading to fewer delays and smarter scheduling. By delivering precise, clause-level answers and source references, CBA CoPilot acts as a centralized source of truth for contract rules.
+
 
 Key Features
 Clause-Level Answers: Provides precise, context-aware answers to complex questions about contract clauses.
@@ -21,6 +25,8 @@ Smart Scheduling Assistance: Offers automated flight assignment scenarios based 
 Reduced Admin Intervention: Drastically minimizes the need for manual lookups and administrative back-and-forth by providing a self-service solution for common inquiries.
 
 Self-Contained System: The core functionality is fully contained within a single prompt, requiring no external login or complex setup to use.
+
+
 
 Technology Stack
 The project is built on a modern AI stack using Retrieval-Augmented Generation (RAG) to ensure accuracy and contextual relevance.
