@@ -5,8 +5,14 @@
 - Run app with `streamlit run streamlit_app.py`
 - Import files into FAISS database either through upload UI or by putting files in ./files directory and running 
 
-## Overview
+## Description
 Contract_chatbot_alpha is a Streamlit-based chatbot application that uses FAISS for vector-based search and retrieval. The chatbot processes user queries, retrieves relevant context from indexed documents, and provides responses with references to the source documents.
+
+Overview:
+
+<img width="1599" height="896" alt="image" src="https://github.com/user-attachments/assets/3f6abe13-caf5-4a89-b9cf-246b37259b3c" />
+
+
 
 <img width="1366" height="763" alt="image" src="https://github.com/user-attachments/assets/210ebe23-c242-4458-8012-f2a6b48b0914" />
 
