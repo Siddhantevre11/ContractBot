@@ -6,7 +6,41 @@
 - Import files into FAISS database either through upload UI or by putting files in ./files directory and running 
 
 ## Description
-Contract_chatbot_alpha is a Streamlit-based chatbot application that uses FAISS for vector-based search and retrieval. The chatbot processes user queries, retrieves relevant context from indexed documents, and provides responses with references to the source documents.
+
+Maverick: AI-Powered Assistant for Aviators
+Project Overview
+CBA CoPilot is an intelligent tool designed to empower pilots by providing instant access to critical information from their Collective Bargaining Agreements (CBAs). This project aims to streamline daily operations, reduce administrative overhead, and enable pilots to make informed decisions quickly, leading to fewer delays and smarter scheduling. By delivering precise, clause-level answers and source references, CBA CoPilot acts as a centralized source of truth for contract rules.
+
+Key Features
+Clause-Level Answers: Provides precise, context-aware answers to complex questions about contract clauses.
+
+Source References: Cites the exact location in the source document (e.g., a specific PDF page or clause) for every answer, ensuring traceability and trust.
+
+Smart Scheduling Assistance: Offers automated flight assignment scenarios based on pilot preferences, seniority, and aircraft type, optimizing flight planning.
+
+Reduced Admin Intervention: Drastically minimizes the need for manual lookups and administrative back-and-forth by providing a self-service solution for common inquiries.
+
+Self-Contained System: The core functionality is fully contained within a single prompt, requiring no external login or complex setup to use.
+
+Technology Stack
+The project is built on a modern AI stack using Retrieval-Augmented Generation (RAG) to ensure accuracy and contextual relevance.
+
+Large Language Model (LLM): Google Gemini 1.5 Pro
+
+Framework: LangChain.js for orchestrating the LLM and RAG pipeline.
+
+Document Processing: Advanced chunking methods were used to prepare the source documents for optimal retrieval. This includes:
+
+Sentence Splitter
+
+Recursive Character Text Splitting
+
+Semantic Chunking
+
+Deployment: The application is deployed on Google Cloud Functions and uses Firebase for serverless backend services.
+
+Current Limitations & Future Roadmap
+The current version of CBA CoPilot uses static, pre-defined data for demonstration purposes. A key part of the future roadmap is to integrate with live databases and flight tracking systems to provide real-time schedule updates and logs. This would transform the tool from a static knowledge base into a dynamic, live assistant.
 
 Overview:
 
