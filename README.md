@@ -8,6 +8,19 @@
 ## Overview
 Contract_chatbot_alpha is a Streamlit-based chatbot application that uses FAISS for vector-based search and retrieval. The chatbot processes user queries, retrieves relevant context from indexed documents, and provides responses with references to the source documents.
 
+<img width="1366" height="763" alt="image" src="https://github.com/user-attachments/assets/210ebe23-c242-4458-8012-f2a6b48b0914" />
+
+Architecture:
+
+<img width="1369" height="764" alt="image" src="https://github.com/user-attachments/assets/5619d671-0c34-4322-802e-4d16e1723cd6" />
+
+LLM powered bot: Maverick
+
+<img width="1360" height="724" alt="image" src="https://github.com/user-attachments/assets/ab494503-b920-4cb8-a2d8-2a31d94ad09f" />
+
+
+
+
 ## File Descriptions
 
 ### **1. `README.md`**
